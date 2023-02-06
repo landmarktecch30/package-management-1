@@ -1,7 +1,8 @@
 #!/bin/bash
 #i1) Switch to root user [ sudo -i]
 
-sudo hostnamectl set-hostname  node1
+sudo hostnamectl set-hostname  master
+sudo su -
 
 #2) Disable swap & add kernel settings
 
